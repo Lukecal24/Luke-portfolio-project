@@ -12,6 +12,11 @@ function PageTransitions(){
             this.className += ' active-btn';
         });
     }
+
+    //Sections active class
+    allSections.addEventListener('click', (e)=>{
+       const id = e.target.dataset.id;
+    })
 }
 
 PageTransitions();

@@ -73,26 +73,31 @@ section{
 .sec1{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: #cdba5a;
 }
 
 .sec2{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: slateblue;
 }
 
 .sec3{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: #3ba1a5;
 }
 
 .sec4{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: #5acd7b;
 }
 
 .sec5{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: #cd5a86;
 }
 
 /*Controls*/
