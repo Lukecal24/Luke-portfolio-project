@@ -14,7 +14,7 @@ function PageTransitions(){
     }
 
     //Sections active class
-    allSections.addEventListener('click', (e)=>{
+    allSections.addEventListener('click', (e) =>{
        const id = e.target.dataset.id;
        if(id){
            //remove selected from the other buttons
@@ -22,6 +22,7 @@ function PageTransitions(){
                btn.classList.remove('active');
            })
            e.target.classList.add('active');
+
            //hide other sections
               sections.forEach((section) => {
                     section.classList.remove('active');
@@ -31,5 +32,7 @@ function PageTransitions(){
        }
     })
 }
+
+
 
 PageTransitions();
